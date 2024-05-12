@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script defer src="/script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+        <p class="nav__logo">adm</p>
+        <ul class="nav__list list">
+          <a href="index.html" class="nav__list-link">home</a>
+            <a href="about.html" class="nav__list-link">about</a>
+            <a href="card.html" class="nav__list-link">rent</a>
+            <a href="sell.html" class="nav__list-link">sell</a>
+            <a href="help.html" class="nav__list-link">help</a>
+            <a href="#" class="nav__list-link  open-modal ">contact</a>
+        </ul>
+       <div class="nav__ham ham">
+            <div class="nav__ham__line "></div>
+        </div> 
+        
+    </nav>
+  </header>
+   
+   <main>
+    <section class="hero section-hideen  ">
+        <h1>  <span>rent, sell,</span><span >house and more!</span></h1>
+        <div class="hero-form">
+            <input class="hero-form__input" type="text">
+            <button class="hero-form__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </section>
+ 
+    <section class="modal hide   ">
+        <button class="modal__closemod"><i class="fa-solid fa-xmark"></i></button>
+     <div class="modal-form">
+        <h1>welcome to <span style="text-transform: uppercase; color: aqua;">adm</span></h1>
+        <div class="modal-form__one">
+            <label for="email" class="label">email</label>
+            <input type="text" placeholder="enter email" class="input">
+        </div>
+        <div class="modal-form__two">
+            <label for="password">password</label>
+            <input type="password" placeholder="enter password">
+        </div>
+        <div class="modal-form__btncon">
+            <button class="modal-form__btn">sign up</button>
+            <p class="modal-form__btncon__pass">forgot your password?</p>
+            <p  class="modal-form__btncon__reg"><i class="fa-brands fa-google-play"></i>    contnue with playstore</p>
+            <p  class="modal-form__btncon__reg" ><i class="fa-brands fa-google"></i>    contnue with google</p>
+        </div>
+       
+       
+     </div>  
+    </section>
+    <div class="modal__overlay hide"></div>
+    <section class="signup  section-hideen ">
+        <div class="signup__artcile">
+            <h2>sign up free recomdations and more!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                 quo modi blanditiis perferendis explicabo corrupti reiciendis vero nihil aperiam illo!</p>
+                 <button class="signup__btn">sign up</button>
+        </div>
+        <div class="signup__imgcon">
+            <img src="/img/remt.jpg" alt="">
+            <img src="/img/rent2.jpg" alt="">
+            <img src="/img/rent3.jpg" alt="">
+        </div>
+       
+    </section>
+    <section class="cards   section-hideen">
+        <div class="cards__card">
+            <img src="/img/cardd.svg" alt="">
+            <h3>rent a house </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Quasi, quod nam. Voluptate, voluptatibus.</p>
+         <button>brows houses</button>
+        </div>
+        <div class="cards__card">
+            <img src="/img/card2.svg" alt="">
+            <h3>find a rental </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Quasi, quod nam. Voluptate, voluptatibus.</p>
+         <button>brows houses</button>
+        </div>
+        <div class="cards__card">
+            <img src="/img/card3.svg" alt="">
+            <h3>sell a home</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Quasi, quod nam. Voluptate, voluptatibus.</p>
+         <button>brows houses</button>
+        </div>
+    </section>
+   </main>
+   <section class="section-hideen">
+   <footer class="footer ">
+
+    <div class="drop">
+        <div class="drop__lists">
+      <a class="drop__lists__dropbtn dropbtn">rental <i class="fa-solid fa-chevron-up"></i> </a>
+      <ul class="drop__lists__list listdrop">
+        <li><a href="">Rental Buildings</a></li>
+        <li> <a href="#">milan apartments for rent</a></li>
+        <li><a href="#"> rome apartments for rent</a></li>
+        <li><a href="#">turin apartments for rent</a></li>
+       
+      </ul>
+        </div>
+    
+
+
+    <div class="drop__lists">
+        <a class="drop__lists__dropbtn">Browse all homese <i class="fa-solid fa-chevron-up"></i>  </a>
+        <ul class="drop__lists__list">
+          <li><a href="#">Albuquerque real estate</a></li>
+          <li> <a href="#"> melan real estate</a></li>
+          <li> <a href="#">rome real estate </a></li>
+          <li><a href="#">turin real estate</a></li>
+          <li></li>
+        </ul>
+          </div>
+      
+  <div class="drop__lists">
+      <a class="drop__lists__dropbtn">Mortgage Rate <i class="fa-solid fa-chevron-up"></i> </a>
+      <ul class="drop__lists__list">
+        <li>  <a href="#">Atlanta real estate</a></li>
+        <li><a href="#"> milan mortgage rates</a></li>
+        <li> <a href="#">rome mortgage rates</a></li>
+        <li><a href="#">turin mortgage rates</a></li>
+        <li></li>
+      </ul>
+        </div>
+  
+
+    <div class="drop__lists">
+        <a class="drop__lists__dropbtn">brows home   <i class=" fa-solid fa-chevron-up"></i> </a>
+        <ul class="drop__lists__list">
+          <li><a href="#">turin</a></li>
+          <li> <a href="#">rome</a></li>
+          <li><a href="#">milane</a></li>
+          
+        </ul>
+          </div>
+        </div>
+  <div class="social">
+    <h3>get in touch</h3>
+    <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </div>
+  <div class="social-store">
+    <h3>you can find us everywhere</h3>
+    <div  class="social-store__imgx">
+      <img src="https://s.zillowstatic.com/pfs/static/app-store-badge.svg" alt="">
+      <img  src="https://s.zillowstatic.com/pfs/static/google-play-badge.svg" alt="">
+    </div>
+  </div>
+  <p class="reserved">all rights reserved <span>ADM</span></p>
+   </footer>
+   </section>
+
+
+  
+
+
+</body>
+</html>

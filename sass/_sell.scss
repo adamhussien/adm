@@ -1,0 +1,464 @@
+.herothree{
+   
+    background-image: linear-gradient(to  right , #000000d8, 
+    #00000053), 
+    url('/img/herosell.jpg');
+   height: 80dvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &__title{
+  font-size: clamp(2.8rem,5vw, 3rem);
+  color: #fff;
+  text-transform: capitalize;
+    }
+    &__para{
+    color: #fff;
+   font-size: clamp(2rem,4.3vw, 2.8rem);
+   font-weight: 600;
+        & span{
+        text-transform: uppercase;
+            color: aqua;
+        }
+    }
+}
+.about{ 
+
+padding: 5rem;
+  background-color: #e3fef740; 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+    &-box1{
+      padding: 2rem;
+      margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  &__title{
+font-size: clamp(2rem, 3.4vw, 2.8em);
+text-transform: capitalize;
+font-weight: 700;
+margin: .6rem;
+  }
+&__para1{
+color: #00000095;
+text-transform: capitalize;
+margin: .6rem;
+font-size:  clamp(2.3rem, 3vw, 2em);
+font-weight: 600;
+}
+&__para2{
+    text-transform: capitalize;
+    margin: .6rem;
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-weight: 600;
+}
+& h3{
+    font-size: clamp(1.8em, 2.7vw, 2rem);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: .6rem;  
+}
+&__form{
+
+  position: relative;
+    & input{
+font-size: clamp(2rem,2vw,2.4rem);
+
+text-align: start;
+outline: none;
+border: 1px solid #00000025;
+border-radius: 4px;
+&:focus{
+    border: 5px solid #4793af;
+    outline: none;
+}
+
+&::placeholder{
+    text-align: start;
+}
+    }
+    & button{
+position: absolute;
+top: 1rem;
+right: .7rem;
+background-color: none;
+border: none;
+color: #4793af;
+font-size: 1.5rem;
+&:hover{
+    color: #00000053;
+
+}
+    }
+}
+}
+&-box2{
+    & img{
+        max-width: 25rem;
+    }
+}
+
+    }
+.market{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+&-box1{
+& img{
+max-width: 100%;
+height: auto;
+}
+}
+&-box2{
+    & h2{
+  font-size: clamp(2.6rem,3.6vw, 2.9rem);
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 1.2rem;
+    }
+    &__info{
+  font-size: clamp(1.6rem,2.7vw, 1.9rem);
+  font-weight: 600;
+  color: #0000009a;
+  text-transform: capitalize;
+  margin: 1rem;
+    }
+    & button{
+  display: block;
+  border: none;
+  background-color: #4793af;
+  padding: 1rem 4rem;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: .8rem;
+  margin: 2rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+    }
+    &__link {
+  color: #4793af;
+  font-size: clamp(1.7rem,3vw,1.9rem);
+  margin: 1rem;
+
+    }
+    & h3{
+
+    }
+    &__details{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+        gap: 2rem;
+        margin: 1.5rem;
+
+        &__item1{
+        & h3{
+          font-size: clamp(1.8rem,5vw, 2.3rem);
+          font-weight: 600;
+        }
+          &__para{
+         font-size: clamp(1.3rem,2vw,1.5rem);
+         text-transform: capitalize;
+         & i{
+   padding: 1rem;
+   color: #4793af;
+         }
+          }  
+        }
+        &__item2{
+    
+      & h3{
+    font-size: clamp(1.8rem,3.5vw, 2.3rem);
+font-weight: 600;
+      }
+      &__dis{
+        font-size: clamp(1.3rem,2vw,1.5rem);
+        text-transform: capitalize;
+        & a{
+          color: #4793af;
+
+        }
+      }
+        }
+    }
+}
+}
+
+.sunsit{
+  background-image: url(/img/housesunset.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:79dvh;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+  &__title{
+    font-size: clamp(2.2rem,3vw, 2.9rem);
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  & p{
+    font-size: clamp(1.4rem,2vw,1.9rem);
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  &__form{
+position: relative;
+  & input{
+font-size: 2.8rem;
+width: 110%;
+
+ padding: 1rem .2rem; 
+border: none;
+outline: none;
+border-radius: 10px;
+&:focus{
+  border: 5px solid #4793af;
+ 
+}
+&::placeholder{
+
+text-transform: capitalize;
+font-weight: 600;
+font-size: clamp(1.1rem,1.2vw,1.3rem);
+  }
+  
+
+  }
+  &__btn{
+    position: absolute; 
+    right: .2rem;
+    top: 1rem;
+border: none;
+text-transform: capitalize;
+font-size: 1rem;
+font-weight: 700;
+color: #fff;
+border-radius: .4rem;
+background-color: #4793af;
+
+padding: 1rem 1rem;
+&:hover {
+  background-color: #1a495afb;
+}
+ }
+  }
+  } 
+
+.tab{
+  width: 100%;
+display: flex;
+padding: 3rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+& h2{
+  margin: 3rem;
+  font-size: clamp(3rem,6vw, 3.5rem);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+&__parag{
+  font-size: clamp(2.2rem 5vw, 2.5rem);
+}
+  .tabbtncontainer{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    &__btn{
+  border: none;
+color: #4793af;
+font-size: 1.4rem;
+  padding: 1rem 4rem;
+  margin: 1rem;
+    }
+  }
+&-sell{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  justify-content: center;
+align-items: center;
+gap: 3rem;
+&__item{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: #fff;
+& img{
+  border-radius: 10px;
+  max-width: 100%;
+  object-fit: cover;
+}
+& h4{
+  padding: 1rem;
+  font-size: clamp(1.9rem,4vw,2.4rem);
+}
+& p{
+  padding: 2rem;
+  font-size: clamp(1.6rem, 3.5vw, 2rem);
+  color: #000000a9;
+}
+
+}
+}
+
+//
+&-sale{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  justify-content: center;
+align-items: center;
+&__item{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: #fff;
+& img{
+  max-width: 100%;
+  object-fit: cover;
+}
+& h4{
+  padding: 1rem;
+  font-size: clamp(1.9rem,4vw,2.4rem);
+}
+& p{
+  padding: 2rem;
+  font-size: clamp(1.6rem, 3.5vw, 2rem);
+  color: #000000a9;
+}
+
+}
+}
+&-home{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  justify-content: center;
+align-items: center;
+gap: 5rem;
+&__item{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: #fff;
+& img{
+  max-width: 100%;
+  object-fit: cover;
+}
+& h4{
+  color: #000000a9;
+  padding: 1rem;
+  font-size: clamp(1.9rem,4vw,2.4rem);
+}
+& p{
+  padding: 2rem;
+  font-size: clamp(1.6rem, 3.5vw, 2rem);
+}
+
+}
+}
+
+&-offer{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  justify-content: center;
+align-items: center;
+
+&__item{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: #fff;
+& img{
+  max-width: 100%;
+  object-fit: cover;
+}
+& h4{
+  padding: 1rem;
+  font-size: clamp(1.9rem,4vw,2.4rem);
+}
+& p{
+  color: #000000a9; 
+  padding: 2rem;
+  font-size: clamp(1.6rem, 3.5vw, 2rem);
+}
+
+
+}
+}
+  }
+.content{
+display: none;
+}
+.content.active{
+  display: grid;
+     justify-items: center;
+     
+      gap: 2rem;
+
+}
+
+.faq{
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h3{
+   text-align: center;
+  font-size: clamp(2rem,3.7vw, 3rem);
+  padding: 2rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  }
+  &-container{
+
+&__question{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:2rem;
+  padding: 2rem;
+h4{
+font-size: clamp(1.7rem, 2.6vw, 1.8rem);
+font-weight: 700;
+text-transform: capitalize;
+}
+& i{
+color: #4793af;
+font-size: 2rem;
+}
+}
+&__answer{
+  display: none;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+& p{
+font-size: clamp(1.3rem, 2vw, 1.5rem);
+font-weight: 500;
+color: #00000095;
+text-transform: capitalize;
+}
+}
+  }
+
+}
+.questionReveal{
+  display: block;
+}

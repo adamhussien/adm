@@ -1,0 +1,120 @@
+
+   .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav__logo {
+    color: aqua;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 4rem;
+}
+
+.nav__list-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4793af;
+    transition: all 0.7s ease;
+}
+
+.nav__list-link:hover {
+    color: #000;
+}
+
+.nav__ham {
+    display: none;
+    width: 50px;
+}
+
+.nav__ham__line,
+.nav__ham::before,
+.nav__ham::after {
+    background: #4793af;
+    content: "";
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.9s;
+}
+
+.nav__ham:hover::before {
+    transform: translateY(12px) rotate(135deg);
+}
+
+.nav__ham:hover::after {
+    transform: translateY(-12px) rotate(-135deg);
+}
+
+.nav__ham:hover .nav__ham__line {
+    transform: scale(0);
+}
+
+@media screen and (max-width: 60em) {
+    .market{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ .about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+    .list {
+       
+       display: flex;
+       flex-direction: column;
+       align-items: start;
+  height: 100%;
+     width: 15rem;
+       align-items: center;
+       gap: 4rem;
+       position: fixed;
+       top: 0;
+       left: -1000px;
+       background-color: #fff;
+       z-index: 3; 
+       transition: 0.8s ease;
+    }
+
+.nav__ham{
+    display: block;
+    transition: all ease-in-out .8s;
+}
+    .collapsed {
+        left: 0;
+
+    }
+    .signup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.signup__imgcon{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+.fixednav{
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffff;
+    z-index: 10000;
+}

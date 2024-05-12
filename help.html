@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script defer  src="/script.js"></script>
+    <body>
+        <header class="header">
+          <nav class="nav">
+              <p class="nav__logo">adm</p>
+              <ul class="nav__list list">
+                <a href="index.html" class="nav__list-link">home</a>
+                  <a href="#" class="nav__list-link">about</a>
+                  <a href="card.html" class="nav__list-link">rent</a>
+                  <a href="sell.html" class="nav__list-link">sell</a>
+                  <a href="help.html" class="nav__list-link">help</a>
+                  <a href="#" class="nav__list-link  open-modal ">contact</a>
+              </ul>
+             <div class="nav__ham ham">
+                  <div class="nav__ham__line "></div>
+              </div> 
+              
+          </nav>
+        </header>
+       
+ <main>
+    <div class="help">
+      <h1 class="help__title">help center</h1>
+      <p>hi, how can we help you?</p>
+      <div class="help-form"><input type="text">
+       <a href=""><i class="fa-solid fa-magnifying-glass"></i>     search</a>
+      </div>
+    
+    </div>
+
+
+  
+
+    <div class="formtwo">
+      <h3>sign in for expedited support</h3>
+      <div class="formtwo__btns">
+        <button  class="formtwo__btns__light" >sign in</button>
+        <button   class="formtwo__btns__green">sign up</button>
+      </div>
+      </div>
+      <section class="modal hide   ">
+        <button class="modal__closemod"><i class="fa-solid fa-xmark"></i></button>
+     <div class="modal-form">
+        <h1>welcome to <span style="text-transform: uppercase; color: aqua;">adm</span></h1>
+        <div class="modal-form__one">
+            <label for="email" class="label">email</label>
+            <input type="text" placeholder="enter email" class="input">
+        </div>
+        <div class="modal-form__two">
+            <label for="password">password</label>
+            <input type="password" placeholder="enter password">
+        </div>
+        <div class="modal-form__btncon">
+            <button class="modal-form__btn">sign up</button>
+            <p class="modal-form__btncon__pass">forgot your password?</p>
+            <p  class="modal-form__btncon__reg"><i class="fa-brands fa-google-play"></i>    contnue with playstore</p>
+            <p  class="modal-form__btncon__reg" ><i class="fa-brands fa-google"></i>    contnue with google</p>
+        </div>
+       
+       
+     </div>  
+    </section>
+    <div class="modal__overlay hide"></div>
+     <div class="buttons">
+      <button>agents </button>
+      <button>lenders</button>
+      <button>rentals</button>
+      <button><span>adm</span> home loans</button>
+      <button>rentals</button>
+      <button>homebuyers</button>
+      <button>homeowners</button>
+      <button>home sellers</button>
+      <button>privacy</button>
+ <button class="italy">adm italy</button>
+     </div>
+
+ </main>
+
+     <footer class="helpfooter">
+  <p class="helpfooter__adm"><span>adm</span>  Help Center</p>
+  <p class="helpfooter__privacy">privacy</p>
+  <select class="helpfooter-select" name="" id="">
+    <option value="enlish">english</option>
+    <option value="spanish">spanish</option>
+    <option value="french">french</option>
+    <option value="italian">italian</option>
+  </select>
+     </footer>  
+      
+        
+      
+      
+      </body>
+</html>
